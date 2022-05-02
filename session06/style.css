@@ -1,0 +1,110 @@
+.body{
+	background-color:#ffdf1e;
+	margin: 0;
+	padding: 0;
+	opacity: 50%;
+	}
+
+.page{
+	text-align: left;
+	position: relative;
+	margin-top: 0px;
+	background-color: #ffdf1e;
+	max-width: 1200px;
+	width: 100%;
+	height: 500px;
+	display: inline-block;
+	opacity: 0.3;
+	}
+
+.outer{
+	text-align: center;
+	padding-top: 0px;
+	}
+
+
+			.NAVIGATIONAREA{
+				   display: flex;
+				   flex-direction: row;
+				   flex-wrap: nowrap;
+				   justify-content:flex-start;
+				   background-color:#ffdf1e;
+				   width: 100%;
+				   height: 80px;
+				   align-items: center;
+				   position: sticky;
+				   top:0;
+				   z-index:100;
+				   padding: 20px;
+				   }
+			
+			.logo{
+				   margin-top:40px;
+				   margin-left: 50px;
+				   margin-bottom: 20px;
+				   max-width: 200px;
+				   }
+
+			.logoimage{
+				   width:60%;
+					}
+
+			.navigationbar{
+				background-color:#ffdf1e;
+	  			font-family: 'Alegreya Sans', sans-serif;
+				flex-grow: 1;
+				margin-right: 20px;
+				margin-left:20px;
+				margin-top:38px;
+				text-align: center;
+				opacity: 100%;
+				}
+							a{
+							  color:black;
+							  font-size:16px;
+							  font-weight: bold;
+							  text-decoration: none;
+							  margin-right:80px;
+							}
+
+							a:hover {
+							  color:dimgrey;  
+							  font-size:16px;
+							  font-weight: display; 
+							 }
+							a:active {
+							  color:black;
+							  font-weight: bold;
+							}
+ 
+	  			.searchbar{
+				background-color: white;
+				margin-left: auto;
+				align-content: flex-end;
+				margin-top:35px;
+				max-width: 100px;
+				}
+
+				.searchbarimage{
+				width:18%;
+				}
+
+
+.tile{
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 500;
+	}
+
+.herotopfirst{
+	background-image: url("img/honeynut.jpg");
+	}
+
+.herotopsecond{
+	background-image: url("img/pizza.jpg");
+	}
+
+.herotopthird{
+	background-image: url("img/breakfast-cereal-pops_hero.jpg");
+	}
